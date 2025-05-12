@@ -2,15 +2,16 @@ body{
     /* padding: 0px 100px; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+    box-sizing: border-box;
+    padding: 0px;
 }
+
 .nav1{
     display: flex;
     justify-content: space-between;
-    position:sticky ;
-    top: 0px;
+    
     background-color: white;
-    z-index: 200px;
+    
     padding: 0px 100px;
 }
 .div1{
@@ -291,6 +292,7 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
+    align-items: center;
     background-color: rgb(240,241,255);
 }
 .nv1 button{
@@ -326,4 +328,25 @@ li{
 }
 #sect img{
     width: 350px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    line-height: 1.5;
+}
+footer div p{
+    font-size: 12px;
+}
+footer div{
+    flex-basis: 25%;
+}
+footer a{
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-top: 20px;
+    font-size: 13px;
+}
+footer h6{
+    font-size: 16px;
 }
