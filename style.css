@@ -1,0 +1,329 @@
+body{
+    /* padding: 0px 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    position:sticky ;
+    top: 0px;
+    background-color: white;
+    z-index: 200px;
+    padding: 0px 100px;
+}
+.div1{
+    display: flex;
+    margin: 20px;
+}
+.div1 li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.div1 li select{
+    border: none;
+    color: rgb(23,45,144);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: center;
+}
+#div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.div2 h1{
+    font-size: 67px;
+    font-weight: bolder;
+    color: rgb(0,14,66);
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.div2 p{
+    color: rgba(0, 0, 0, 0.699);
+    line-height: 1.4;
+    margin-bottom: 30px;
+    
+}
+.div2 button{
+    width: 130px;
+    height: 60px;
+    background-color: rgb(23,45,144);
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: none;
+}
+#section1 div img{
+    filter: grayscale();
+    width: 300px;
+    height: 300px;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+#section1 div{
+    margin: 30px 25px 30px 0px;
+    flex-basis: 30%;
+}
+#section1 div p{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.425);
+    line-height: 1.4;
+}
+#section1 div h2{
+    color: rgb(0,14,84);
+    font-size: 20px;
+}
+#section1 div a{
+    margin: 100px 0px;
+    color: rgb(112,72,78);
+    font-weight: 400;
+    font-size: 16px;
+}
+#section2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 100px;
+}
+#section2 div{
+    flex: 30%;
+    
+}
+#section2 div h2{
+    font-size: 16px;
+}
+#section2 div p strong{
+    font-size: 16px;
+    color: rgba(102, 121, 125, 0.822);
+    font-size: medium;
+}
+#section2 div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(116, 116, 116, 0.589);
+    font-weight: bold;
+    line-height: 1.4;
+}
+#section2 div hr{
+    border-top: 1px;
+    border-color: rgb(53, 53, 238);
+}
+.section3{
+    display: grid;
+    padding: 0px 100px;
+}
+.dv1{
+    display: inline;
+    position: relative;
+    top: 60px;
+}
+.dv2{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(213,234,243);
+    border-radius: 15px;
+    box-shadow: 30px 50px 20px rgba(212, 235, 217, 0.459);
+    padding: 50px 50px;
+    position: relative;
+    top: 60px;
+    margin-bottom: 30px;
+}
+.dv3{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(238,239,189);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 50px 60px;
+    position: relative;
+    top: -60px;
+    box-shadow: 30px 50px 20px rgba(255, 225, 220, 0.486) ;
+}
+.parent{
+    display: flex;
+    gap: 50px;
+    
+}
+.parent img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+.parent h3{
+    font-size: 27px;
+}
+.dv2 p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.dv3 p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+#prt{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+li{
+    list-style: none;
+}
+#prt img{
+    width: 150px;
+    margin-top: 20px;
+}
+.section5{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+ height: 400px;
+ background-image: linear-gradient(rgba(11, 12, 71, 0.637)), url(./image/product.jpg);
+ color: white;
+}
+.section5 div{
+    flex-basis: 50%;
+}
+.section5 video{
+    border-radius: 15px;
+}
+#div6{
+    text-align: center;
+}
+.section5 h1{
+    font-size: 48px;
+}
+.section5 p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+.section5 button{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.section7 div{
+    flex-basis: 25%;
+}
+
+.section7 p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.74);
+}
+.section7 h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.d2 img{
+    margin-top: 20px;
+}
+.d2{
+    position: relative;
+    top: 50px;
+}
+.d1{
+    position: relative;
+    top: -50px;
+}
+.section8{
+    background-color: rgb(9,3,38);
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    
+    color: white;
+    line-height: 1.5;
+    padding: 20px 100px;
+}
+.section8 div{
+    flex-basis: 40%;
+}
+.section8 a{
+    color: goldenrod;
+    text-decoration: none;
+    
+}
+.section8 hr{
+    border: 1px solid goldenrod;
+    margin-bottom: 50px;
+}
+.section9{
+    background-color: rgb(0,11,63);
+    color: white;
+    padding: 20px 100px;
+
+}
+.section9 h4{
+    text-transform: uppercase;
+}
+.section9 h2{
+    font-size: 56px;
+
+}
+.section9 button{
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    color: wheat;
+    background-color: rgb(0,32,138);
+}
+.nv1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: rgb(240,241,255);
+}
+.nv1 button{
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    color: wheat;
+    background-color: rgb(0,32,138);
+}
+#sect{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color:rgb(240,241,255);
+    height: 550px;
+}
+#sect a{
+    color: black;
+    text-decoration: none;
+}
+#sect p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.74);
+}
+#sect div{
+    flex-basis: 30%;
+    background-color: white;
+    margin: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    width: 300px;
+}
+#sect img{
+    width: 350px;
+}
